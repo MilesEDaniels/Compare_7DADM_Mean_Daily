@@ -11,4 +11,4 @@ _Note 2: models have only undergone preliminary diagnostics to look for clear mi
 
 
 The time series for CCR and TDM are shown below. 
-![plot](Raw_CRR_and_TDM_5_1_24.png)# 
+![plot](Figure_1.png)# 
