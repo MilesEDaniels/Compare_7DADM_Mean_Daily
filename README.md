@@ -13,9 +13,9 @@ _Note 1: data to perform analysis are at the Google Drive located here: https://
 
 _Note 2: the lookup table that be used used to determine an average adjustment from daily mean to 7DADM is titled "DA_7DADM_Lookup_9_13_2024.xlsx" and can be downloaded from this page._
 
-For this analysis we used hourly temperature data from the RAFT model for the time period of 2000 to 2021. DM was calculated by taking the mean of hourly temperature values for a given day. 7DADM was calculated by taking the average from a time series over 7 days, where the time series was the daily maximum (from hourly data) for day _i_ to day _i-6_.
+For this analysis we used hourly temperature data from the RAFT model for the time period of 2000 to 2023. DM was calculated by taking the mean of hourly temperature values for a given day. 7DADM was calculated by taking the average from a time series over 7 days, where the time series was the daily maximum (from hourly data) for day _i_ to day _i-6_.
 
-To have a first look of all the data, below is a scatter plot, where each point is the 7DAMD on the X-axis and the corresponding DM on the Y-axis for each day from 2000-2021 and for each RAFT grid from the upstream boundary at Keswick Dam (Grid 1) to the downstream boundary near Freeport (Grid 214). Points are color-coded, for times where DM is $${\color{#ff7e33}HIGHER}$$ or $${\color{#33a3ff}LOWER}$$ than 7DADM values. From this we can see that DM is not always lower than 7DAMD, but that overall, DM is 0.6C lower than 7DADM.
+To have a first look at all the data, below is a scatter plot, where each point is the 7DAMD on the X-axis and the corresponding DM on the Y-axis for each day from 2000-2023 and for each RAFT grids from the upstream boundary at Keswick Dam (Grid 1) to the downstream boundary near Freeport (Grid 214). Points are color-coded, for times where DM is $${\color{#ff7e33}HIGHER}$$ or $${\color{#33a3ff}LOWER}$$ than 7DADM values. From this we can see that DM is not always lower than 7DAMD, but that overall, DM is 0.6C lower than 7DADM.
  
 ![plot](Figure_1.png)
 _Figure 1: Scatter plot of 7DADM vs DM for all RAFT grids and days from 2000-2021_
@@ -29,7 +29,7 @@ _Figure 2: Scatter plot of 7DADM vs DM for all RAFT grids and days from 2000-202
 
 ### Does the relationship between DM and 7DAMD vary by space?
 
-Figures 1 and 2 aggregated all values from RAFT grid 0 to 214, but it is likely that the relationship varies over space as well as time. To asses how DM and 7DAMD compare across space and time, Figure 3 below shows results broken out by month and RAFT grid. More specifically, the difference between 7DAMD and DM (7DADM-DM) is plotted for each RAFT grid and over the years (2000-2023) by month. This variability is represented by points and indicates that sometimes the difference between 7DADM and DM is as high as approximately -4 to 4C. From this variability, it is difficult to see a trend, but when plotting the 50th percentile for each RAFT grid (solid black line) and the interquartile range (filled region), we can see a more clear pattern. The 50th, 25th, and 75th estimates for the difference between 7DAMD and DM are in the file at the Drive Link HERE. 
+Figures 1 and 2 aggregated all values from RAFT grid 0 to 214, but it is likely that the relationship varies over space as well as time. To asses how DM and 7DAMD compare across space and time, Figure 3 below shows results broken out by month and RAFT grid. More specifically, the difference between 7DAMD and DM (7DADM-DM) is plotted for each RAFT grid and over the years (2000-2023) by month. This variability is represented by points and indicates that sometimes the difference between 7DADM and DM is as high as approximately -4 to 4C. From this variability, it is difficult to see a trend, but when plotting the 50th percentile for each RAFT grid (solid black line) and the interquartile range (filled region), we can see a more clear pattern.
 
 ![plot](Figure_3.png)
 _Figure 3: Plot of difference between 7DADM and DM by RAFT grid and month_
