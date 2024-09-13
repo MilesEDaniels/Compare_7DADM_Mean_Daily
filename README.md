@@ -33,3 +33,10 @@ Figures 1 and 2 aggragted all values from RAFT grid 0 to 214, but it is likely t
 _Figure 3: Plot of difference between 7DADM and DM by RAFT grid and month_
 
 Interestingly, we can see that there is often not a monotonic trend in 7DADM-DM, but rather some peaks and valleys. These are more obvious in the upstream reach during summer months and are liekly a result of reservoir operations upstream. These locations of more variation and less variation has been demonstrated before on the Sacramento River and have reffered to as node and anti-nodes (https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2000WR900142). To visualize this more clealry, Figure 4 below shows hourly temperature predictions at three locations for two years on the Sacramento River, where variation in river temperatue is low, high, and low again respectivley. 
+
+![plot](Figure_4.png)
+_Figure 4: Demonstration of how hourly varibality in temperature changes at different locations on the Sacramento River and relates to smaller and larger differences in 7DADM and DM_
+
+### Summary
+
+It seem that we can relate DM to 7DADM, but that we will need to account for both space and time (probably not a surprise). We could use the file HERE to do this by using it as a lookup table for a particular river location and month, or we could take another approach. 
