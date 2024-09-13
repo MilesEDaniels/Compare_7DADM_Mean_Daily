@@ -3,6 +3,8 @@ Last updated 9/13/2024, Miles Daniels (miedanie@ucsc.edu)
 
 This document describes the exploratory analysis of the relationship between 7DADM (7 Day Average of the Daily Maximum) and mean daily (DM) river temperature on the Sacramento River, CA.
 
+### GOAL: The majority of results for the Thermal Thresholds project are presented in temperature units of daily mean. However, most of the regulatory criteria are in units of 7DADM. We would like to have a way to relate results for daily mean to 7DADM. 
+
 ### RESULT: It seem that we can relate DM to 7DADM, but that we will need to account for both space and time (probably not a surprise). We could use the file "DA_7DADM_Lookup_9_13_2024.xlsx" to do this by using it as a lookup table for a particular river location and month, or we could take another approach. For more details, see below. 
 
 _Simulations last ran with Matlab version 2023b_
@@ -10,8 +12,6 @@ _Simulations last ran with Matlab version 2023b_
 _Note 1: data to perform analysis are at the Google Drive located here: https://drive.google.com/drive/folders/1_q3kOdzp0THbsYTGWtLe9YOcEeWSb341?usp=sharing._
 
 _Note 2: the lookup table that be used used to determine an average adjustment from daily mean to 7DADM is titled "DA_7DADM_Lookup_9_13_2024.xlsx" and can be downloaded from this page._
-
-### Purpose: The majority of results for the Thermal Thresholds project are presented in temperature units of daily mean. However, most of the regulatory criteria are in units of 7DADM. We would like to have a way to relate results for daily mean to 7DADM. 
 
 For this analysis we used hourly temperature data from the RAFT model (Daniels et al, 2018) for the time period of 2000 to 2021. DM was calculated by taking the mean of hourly temperature values for a given day. 7DADM was calculated by taking the average from a time series over 7 days, where the time series was the daily maximum (from hourly data) for day _i_ to day _i-6_.
 
