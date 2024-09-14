@@ -25,7 +25,7 @@ _Figure 1: Scatter plot of 7DADM vs DM for all RAFT grids and days from 2000-202
 From Figure 1 we can see that DM diverges from 7DAMD in a non-constant manner. This may in part be related to time of the year. Specifically, as diel temperature increases, we would expect to see a larger difference between the two metrics. This would indicate that we should include a temporal component when relating results based on DM to 7DAMD. The figure below shows that same data as in Figure 1, but broken out by month. Overall, we can see that DM tends to diverge more from 7DAMD during warmer months as compared to cooler months.
 
 ![plot](Figure_2.png)
-_Figure 2: Scatter plot of 7DADM vs DM for all RAFT grids and days from 2000-2021 stratified by month_
+_Figure 2: Scatter plot of 7DADM vs DM for all RAFT grids and days from 2000-2023 stratified by month_
 
 ### Does the relationship between DM and 7DAMD vary by space?
 
