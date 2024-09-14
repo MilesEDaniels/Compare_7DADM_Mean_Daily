@@ -3,7 +3,7 @@ Last updated 9/13/2024, Miles Daniels (miedanie@ucsc.edu)
 
 This document describes the exploratory analysis of the relationship between 7DADM (7 Day Average of the Daily Maximum) and mean daily (DM) river temperature on the Sacramento River, CA.
 
-### GOAL: The majority of results for the Thermal Thresholds project are presented in temperature units of daily mean. However, most of the regulatory criteria are in units of 7DADM. We would like to have a way to relate results for daily mean to 7DADM. 
+### GOAL: The majority of results for the Thermal Thresholds project are presented in temperature units of DM. However, most of the regulatory criteria are in units of 7DADM. We would like to have a way to relate results for daily mean to 7DADM. 
 
 ### RESULT: It seem that we can relate DM to 7DADM, but that we will need to account for both space and time (probably not a surprise). We could use the file "DA_7DADM_Lookup_9_13_2024.xlsx" to do this by using it as a lookup table for a particular river location and month, or we could take another approach. For more details, see below. 
 
