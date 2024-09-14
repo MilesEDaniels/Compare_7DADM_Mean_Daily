@@ -18,7 +18,7 @@ For this analysis we used hourly temperature data from the RAFT model for the ti
 To have a first look at all the data, below is a scatter plot, where each point is the 7DAMD on the X-axis and the corresponding DM on the Y-axis for each day from 2000-2023 and for each RAFT grids from the upstream boundary at Keswick Dam (Grid 1) to the downstream boundary near Freeport (Grid 214). Points are color-coded, for times where DM is $${\color{#ff7e33}HIGHER}$$ or $${\color{#33a3ff}LOWER}$$ than 7DADM values. From this we can see that DM is not always lower than 7DAMD, but that overall, DM is 0.6C lower than 7DADM.
  
 ![plot](Figure_1.png)
-_Figure 1: Scatter plot of 7DADM vs DM for all RAFT grids and days from 2000-2023, NOTE: $${\color{#ef3bff}Magenta line shows EPA thermal criteria of 20C}$$ _
+_Figure 1: Scatter plot of 7DADM vs DM for all RAFT grids and days from 2000-2023, NOTE: $${\color{#ef3bff}Magenta}$$ line shows EPA thermal criteria of 20C _
 
 ### Does the relationship between DM and 7DAMD vary by time?
 
