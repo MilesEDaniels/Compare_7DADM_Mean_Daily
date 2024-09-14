@@ -41,4 +41,4 @@ _Figure 4: Demonstration of how hourly variability in temperature changes at dif
 
 ### Summary
 
-It seem that we can relate DM to 7DADM, but that we will need to account for both space and time (probably not a surprise). We could use the file titled “DA_7DADM_Lookup_9_13_2024.xlsx” to do this by using it as a lookup table for a particular river location and month, or we could take another approach. 
+It seem that we can relate DM to 7DADM, but that we will need to account for both space and time (probably not a surprise). We could use the file titled “DA_7DADM_Lookup_9_13_2024.xlsx” to do this by using it as a lookup table for a particular river location and month, or we could take another approach. However, applying a correction factrr that ignores regional space and time componets would lead to biased inferecne. 
