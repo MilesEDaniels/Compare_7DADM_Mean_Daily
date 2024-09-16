@@ -5,7 +5,7 @@ This document describes the exploratory analysis of the relationship between 7DA
 
 ### GOAL: The majority of results for the Thermal Thresholds project are presented in temperature units of DM. However, most of the regulatory criteria are in units of 7DADM. We would like to have a way to relate results for DM to 7DADM. 
 
-### RESULT: It seem that we can relate DM to 7DADM, but that we will need to account for both space and time (probably not a surprise). We could use the file "DA_7DADM_Lookup_9_13_2024.xlsx" to do this by using it as a lookup table for a particular river location and month, or we could take another approach. For more details, see below. 
+### RESULT: It seem that we can relate DM to 7DADM, but that we will need to account for both space and time (probably not a surprise). We could use the file "DA_7DADM_Lookup_9_13_2024.xlsx" to do this by using it as a lookup table for a particular river location and month, or we could take another approach (such as just using the actual 7DADM for each day/location). For more details, see below. 
 
 _Simulations last ran with Matlab version 2023b_
 
@@ -41,6 +41,6 @@ _Figure 4: Demonstration of how hourly variability in temperature changes at dif
 
 ### Summary
 
-It seem that we can relate DM to 7DADM, but that we will need to account for both space and time (probably not a surprise). We could use the file titled “DA_7DADM_Lookup_9_13_2024.xlsx” to do this by using it as a lookup table for a particular river location and month, or we could take another approach.  
+It seem that we can relate DM to 7DADM, but that we will need to account for both space and time (probably not a surprise). We could use the file titled “DA_7DADM_Lookup_9_13_2024.xlsx” to do this by using it as a lookup table for a particular river location and month, or we could take another approach (such as just using the actual 7DADM for each day/location).  
 
-### A main result from this analysis is that applying a correction factor that ignores regional space and time components would lead to biased inference. 
+### A main result from this analysis is that applying a correction factor that ignores regional space and time components could lead to biased inference. 
