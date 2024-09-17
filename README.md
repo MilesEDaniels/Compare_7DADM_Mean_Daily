@@ -44,3 +44,11 @@ _Figure 4: Demonstration of how hourly variability in temperature changes at dif
 It seem that we can relate DM to 7DADM, but that we will need to account for both space and time (probably not a surprise). We could use the file titled “DA_7DADM_Lookup_9_13_2024.xlsx” to do this by using it as a lookup table for a particular river location and month, or we could take another approach (such as just using the actual 7DADM for each day/location).  
 
 ### A main result from this analysis is that applying a correction factor that ignores regional space and time components could lead to biased inference. 
+
+### Under what conditions is DM > 7DADM?
+
+Two plots below show conditions when the DM > 7DADM. This occurs when there is a persitent increase in river temperatures over the preceeding 6 days. Miles will work to better describe when this occurs for times and locations where 20C 7DAMD is less protective than the DM to understand implicaitons. 
+
+![plot](Figure_5.png)
+_Figure 5: Two plots showing when DM > 7DAMD in the upper and lower river_
+
